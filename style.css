@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+
+header{
+    background-color: white;
+}
+
+.img-principal img{
+    width: 100%;
+}
+
+.opcoes p {
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.img-miniatura img{
+    width: 100px;
+    border: solid 3px #ee4e2e;
+    margin: 10px 0 10px 15px ;
+}
+
+main{
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+}
+
+.detalhes{
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.detalhes span{
+    color: #ee4e2e;
+}
+
+#nome-produto{
+    margin: 20px 0px 0px 15px;
+    padding: 15px 0px 0px 0px;
+    font-size: 1.3rem;
+}
+
+#preco-produto{
+    margin: 10px 0px 10px 15px;
+    color: #ee4e2e;
+    font-size: 2rem;
+}
+
+#estrelas{
+    color: #ffC222;
+    font-size: 1.7rem;
+    margin: 0px 5px 0px 15px ;
+}
+
+.frete{
+    margin-top: 20px;
+    background-color: white;
+    display: flex
+}
+
+.frete img{
+    width: 40px;
+    margin: 10px 0px 10px 15px;
+    flex: 1;
+}
+
+.texto-frete{
+    margin: 20px 0px 10px 15px;
+    font-size: 0.8rem;
+}
+
+#frete-promocao{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+#frete-promocao > span{
+    color: #ee4e2e;
+}
+
+.garantia-shopee{
+    background-color:rgb(245, 245, 220);
+    margin-top: 20px;
+}
+
+#titulo-garantia{
+    display: flex;
+}
+
+#garantia-icon{
+    background-color: beige;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#garantia-text{
+    color: rgb(88, 204, 165);
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 1.2rem;
+}
+
+#paragrafo-garantia{
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+.loja{
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topo-loja{
+    display: flex;
+}
+
+#perfil{
+    width: 100px;
+    border-radius: 100%;
+    border: solid 1px gray;
+    margin: auto 0px auto 0px;
+}
+
+#nome-loja{
+    margin: auto 0px auto 15px;
+    font-size: 1.2rem;
+}
+
+#ver-loja{
+    border: solid 2px #ee4e2e;
+    border-radius: 7px;
+    color: #ee4e2e;
+    margin: auto 10px auto 0px;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+.avaliacao-loja{
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.avaliacao-loja span{
+    color: #ee4e2e;
+}
+
+.descricao{
+    background-color: white;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 1.1rem;
+}
+
+.descricao span{
+    font-size: 1.4rem;
+}
+
+.cta {
+    background-color: white;
+    display: flex;
+    font-size: 0.5rem;
+    margin: auto 0px auto 0px ;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-between;
+}
+
+.cta img{
+    color: white;
+    width: 35px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+#esquerdo{
+    color: white;
+    display: flex;
+    background-color:rgb(107, 212, 177);
+    margin: auto 0px auto 0px ;
+    padding: 20px 37px 20px 31px;
+    
+}
+#direito{
+    font-size: 0.8rem;;
+    color: white;
+    background-color: #ee4e2e;
+    padding: 20px 37px 20px 32px;
+    
+}
+
+
