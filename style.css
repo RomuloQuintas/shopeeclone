@@ -5,11 +5,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(237, 237, 237);
 }
 
 header{
     background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
 .img-principal img{
@@ -35,6 +36,7 @@ main{
 .detalhes{
     background-color: white;
     padding-bottom: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
 .detalhes span{
@@ -63,6 +65,7 @@ main{
     margin-top: 20px;
     background-color: white;
     display: flex
+    
 }
 
 .frete img{
@@ -74,6 +77,7 @@ main{
 .texto-frete{
     margin: 18px 0px 10px 15px;
     font-size: 0.8rem;
+    
 }
 
 #frete-promocao{
@@ -81,6 +85,7 @@ main{
     padding-bottom: 10px;
     padding-left: 15px;
     font-size: 1.1rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
 #frete-promocao > span{
@@ -90,6 +95,7 @@ main{
 .garantia-shopee{
     background-color:rgb(245, 245, 220);
     margin-top: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
 #titulo-garantia{
@@ -121,6 +127,7 @@ main{
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #topo-loja{
@@ -154,6 +161,7 @@ main{
     padding: 0px 15px 0px 15px;
     background-color: white;
     padding-bottom: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
 .avaliacao-loja span{
@@ -176,6 +184,7 @@ main{
     background-color: white;
     display: flex;
     font-size: 0.7rem;
+    width: 100%;
 }
 
 .cta img{
