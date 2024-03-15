@@ -39,13 +39,17 @@ main{
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
 }
 
+.detalhes a{
+    text-decoration: none;
+}
+
 .detalhes span{
     color: #ee4e2e;
 }
 
 #nome-produto{
     margin: 20px 0px 0px 15px;
-    padding: 15px 0px 0px 0px;
+    padding: 15px 5px 0px 0px;
     font-size: 1rem;
 }
 
@@ -153,6 +157,12 @@ main{
     padding: 8px;
     font-size: 0.9rem;
 }
+
+#ver-loja a{
+    text-decoration: none;
+    color:#ee4e2e;
+}
+
 .avaliacao-loja{
     display: flex;
     font-size: 0.6rem;
@@ -172,6 +182,7 @@ main{
     margin-top: 15px;
     padding-top: 20px;
     padding-left: 25px;
+    padding-bottom: 50px;
     font-size: 0.9rem;
 }
 
@@ -179,31 +190,40 @@ main{
     font-size: 1.4rem;
 }
 
-.cta {
-    background-color: white;
-    font-size: 0.9rem;
+.conteiner {
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
-.cta img{
-    width: px;
-    height: 45px;
-    background-color: rgb(88, 204, 165);
-    padding: 10px 10px 10px 20px;
-}
+
 
 #esquerdo{
     background-color:rgb(88, 204, 165);
+    box-sizing: border-box;
     color: white;
-    padding: 25px 0px 25px 0px;
-    width: 100%;
+    width: 50%;
+    padding: 20px 0px 20px 40px;
+}
+
+#esquerdo a{
+    text-decoration: none;
+    color: white;
 }
 
 #direito{
     background-color: #ee4e2e;
+    box-sizing: border-box;
     color: white;
-    padding: 25px 50px 25px 20px;
-    width: 100%;
+    width: 50%;
+    padding: 20px 0px 20px 30px;
+}
+
+#direito a{
+    text-decoration: none;
+    color: white;
 }
 
 
