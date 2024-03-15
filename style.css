@@ -175,33 +175,26 @@ main{
 .cta {
     background-color: white;
     display: flex;
-    font-size: 0.5rem;
-    margin: auto 0px auto 0px ;
-    padding: 20px 0px 20px 0px;
-    justify-content: space-between;
+    font-size: 0.7rem;
 }
 
 .cta img{
     color: white;
-    width: 35px;
-    margin-right: 10px;
-    padding: 0;
+    width: 30px;
+    background-color: rgb(88, 204, 165);
+    padding: 20px 20px 20px 35px;
 }
 
 #esquerdo{
+    background-color: rgb(88, 204, 165);
     color: white;
-    display: flex;
-    background-color:rgb(107, 212, 177);
-    margin: auto 0px auto 0px ;
-    padding: 20px 37px 20px 31px;
-    
+    padding: 25px 20px 25px 0px;
 }
+
 #direito{
-    font-size: 0.8rem;;
-    color: white;
     background-color: #ee4e2e;
-    padding: 20px 37px 20px 32px;
-    
+    color: white;
+    padding: 25px 50px 25px 30px;
 }
 
 
